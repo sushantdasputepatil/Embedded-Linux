@@ -26,7 +26,7 @@ void MPU6050_Init(){
         exit(1);
     }
 	int8_t i2c_smbus_write_byte_data(fd, PWR_MGMT_1, 0x20);	/* Write to power management register */
-	int8_t i2c_smbus_write_byte_data(fd, CONFIG, 0);		/* Write to Configuration register */
+	int8_t i2c_smbus_write_byte_data(fd, CONFIG, 0);	/* Write to Configuration register */
 	int8_t i2c_smbus_write_byte_data(fd, INT_ENABLE, 0x01);	/*Write to interrupt enable register */
 
 	} 
