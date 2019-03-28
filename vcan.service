@@ -1,0 +1,8 @@
+[Unit]
+Description=vcan.service
+
+[Service]
+ExecStart=/root/vcan.sh
+
+[Install]
+WantedBy=multi-user.target
