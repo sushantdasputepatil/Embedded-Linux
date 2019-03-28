@@ -6,3 +6,9 @@ ExecStart=/root/vcan.sh
 
 [Install]
 WantedBy=multi-user.target
+
+//Systemd Service for enabling vcan on bootup
+//place this file in /etc/systemd/system
+//And place vcan.sh file in /usr/bin
+//sushant@sushant-HP-Notebook:~$ sudo systemctl enable vcan.service
+//Now reboot.
