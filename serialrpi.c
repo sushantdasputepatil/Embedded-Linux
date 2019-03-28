@@ -1,3 +1,7 @@
+#include <stdio.h>
+#include <unistd.h>			//Used for UART
+#include <fcntl.h>			//Used for UART
+#include <termios.h>			//Used for UART
 static int init_serial(void)
 {	
 	int fd;
@@ -18,3 +22,5 @@ static int init_serial(void)
 	tcsetattr(fd, TCSANOW, &options);
 	return fd;
 }
+
+//use initserial() wherever you want in program
