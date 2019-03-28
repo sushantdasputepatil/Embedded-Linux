@@ -1,8 +1,3 @@
-/*
-	MPU6050 Interfacing with Raspberry Pi
-	http://www.electronicwings.com
-*/
-
 #include <stdio.h>
 #include <linux/i2c-dev.h>
 #include <stdlib.h>
