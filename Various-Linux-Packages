@@ -1,0 +1,40 @@
+Packages:
+
+*flite 2.1-1=	A lightweight speech synthesis engine
+
+*flex-2.6.4=The flex program generates scanners. Scanners are
+programs which can recognize lexical patterns in text.
+
+*e2fsprogs=contain all of the standard utilities for creating, fixing, configuring , and debugging ext2 filesystems.
+
+*cracklib-dev=A library used to enforce strong passwords (development files)
+
+*connman-1.22-1=provides a daemon for managing internet connections within
+embedded devices running the Linux operating system
+
+*bluez-5.41-6.1 RPM for aarch64=provides support for the core Bluetooth layers and protocols.
+alsa-utils=This package contains command line utilities for the Advanced Linux Sound
+Architecture (ALSA).
+
+*GStreamer =is a library for constructing graphs of media-handling components. The applications it supports range from simple Ogg/Vorbis playback, audio/video streaming to complex audio (mixing) and video (non-linear editing) processing.
+
+*Gptfdisk='GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but used for modifying GUID Partition Table (GPT) disks.'
+
+*GUPnP =is an object-oriented open source framework for creating UPnP
+devices and control points, written in C using GObject and libsoup.
+The GUPnP API is intended to be easy to use, efficient and flexible.
+
+*high-level-viwi-service=CAN binding, based upon ViWi definition.
+This binding is intended to act between the low-level binding and clients. It collects resources as defined in a json configuration file, and implements subscribe/unsubscribe/get verbs for the clients.
+
+*event manager=receive high level events, like hard key presses and distributes them to the corresponding component.
+
+*iproute2=collection of user-space utilities to set up networking
+under Linux from the command-line. It can inspect and configure,
+among other things: interface paramters, IP addresses, routing,
+tunnels, bridges, packet transformations (IPsec, etc.), and Quality
+of Service.
+
+*iptables=It controls the Linux kernel network packet filtering code. It allows you to set up firewalls and IP masquerading, etc. Install iptables if you need to set up firewalling for your network. Install this only if you are using the 2.4 or 2.6 kernels!!
+
+*kbd aarch64=This package contains utilities to load console fonts and keyboard maps. It also includes a number of different fonts and keyboard maps.
