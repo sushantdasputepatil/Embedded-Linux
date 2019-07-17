@@ -1,0 +1,77 @@
+//modules
+
+*6LoWPAN =It is connecting more things to the cloud. Low-power, IP-driven nodes and
+large mesh network support make this technology a great option for Internet of Things
+(IoT) applications. As the full name implies – “IPv6 over Low-Power Wireless Personal
+Area Networks” – 6LoWPAN is a networking technology or adaptation layer that allows
+IPv6 packets to be carried efficiently within small link layer frames, such as those
+defined by IEEE 802.15.4
+
+*8021q=The standard provides common interoperable solutions to the establishment of Virtual LAN Bridged infrastructures. Revision is needed in order to deal with editorial and technical corrections, to remove obsolete material, and also to reflect changes necessary as a result of enhancements to IEEE Std 802.1D - Standard for Local and Metropolitan Area Networks: Media Access Control (MAC) Bridges, upon which IEEE Std 802.1Q depends.
+
+*Video4Linux, V4L= is a collection of device drivers and an API for supporting realtime video capture on Linux systems.
+
+*kmod=It is a set of tools to handle common tasks with Linux kernel modules like insert, remove, list, check properties, resolve dependencies and aliases. These tools are designed on top of libkmod, a library that is shipped with kmod. The aim is to be compatible with tools, configurations and indexes from module-init-tools project.
+
+*LatencyTOP =It is a Linux tool for software developers (both kernel and userspace), aimed at identifying where system latency occurs, and what kind of operation/action is causing the latency to happen. By identifying this, developers can then change the code to avoid the worst latency hiccups.
+
+*less utility=It is a text file browser that resembles more, but has more capabilities. Less allows you to move backwards in the file as well as forwards. Since less doesn't have to read the entire input file before it starts, less starts up more quickly than text editors (for example, vi). You should install less because it is a basic utility for viewing text files, and you'll use it frequently.
+
+*libaio1 aarch64=The Linux-native asynchronous I/O facility ("async I/O", or "aio") has a richer API and capability set than the simple POSIX async I/O facility. This library, libaio, provides the Linux-native API for async I/O. The POSIX async I/O facility requires this library in order to provide kernel-accelerated async I/O capabilities, as do applications which require the Linux-native async I/O API.
+
+*libatasmart4=A small and lightweight parser library for ATA S.M.A.R.T. hard disk health monitoring.
+
+*libblkid1 aarch64=This is block device identification library, part of util-linux.
+
+*Cairo= It is a vector graphics library with cross-device output support.
+Currently supported output targets include the X Window System,
+in-memory image buffers, and PostScript. Cairo is designed to produce
+identical output on all output media while taking advantage of display
+hardware acceleration when available.
+
+*Lightweight media scanner= meant to be used in not-so-powerful devices, like embedded systems or old machines. Provides an optimized way to recursively scan directories, handling the parser in a child process, avoiding breaks of the main process when parsers break (quite common with such bad libs and tags). One can opt to use the single process version, but be aware that if something bad happens during parsing, your application will suffer. Parsers are plugins in the form of shared objects, so it's easy to add new without having to recompiling the scanner. The scanner will use SQLite3 to store file-mtime association, avoiding parsing files that are already up-to-date. This SQLite connection and the file id within the master table 'files' are handled to plugins for relationship with other tables. Applications should then access the SQLite3 database to get all the informations about scanned media. See tables and fields description at http://lms.garage.maemo.org/api/index.html (end of the page). You can use any SQLite3 access library, for instance you have SQLObject, SQLAlchemy and Storm for python, Sequel for Ruby and possible others.
+
+*Lsof's= stands for LiSt Open Files, and it does just that. It lists information about files that are open by the processes running on a UNIX system.
+
+*netbase 5.1=This package provides the necessary infrastructure for basic TCP/IP based networking
+
+*Nettle=It is a cryptographic library that is designed to fit easily in more or less any context: In crypto toolkits for object-oriented languages (C++, Python, Pike, ...), in applications like LSH or GNUPG, or even in kernel space.
+
+*NSPR=It provides platform independence for non-GUI operating system facilities. These facilities include threads, thread synchronization, normal file and network I/O, interval timing and calendar time, basic memory management (malloc and free) and shared library linking
+
+*oFono.org = It is a place to bring developers together around designing an infrastructure for building mobile telephony (GSM/UMTS) applications. oFono includes a high-level D-Bus API for use by telephony applications. oFono also includes a low-level plug-in API for integrating with telephony stacks, cellular modems and storage back-ends.
+
+*openssh=Ssh (Secure Shell) a program for logging into a remote machine and for executing commands in a remote machine. It is intended to replace rlogin and rsh, and provide secure encrypted communications between two untrusted hosts over an insecure network. X11 connections and arbitrary TCP/IP ports can also be forwarded over the secure channel. OpenSSH is OpenBSD's rework of the last free version of SSH, bringing it up to date in terms of security and features, as well as removing all patented algorithms to separate libraries (OpenSSL). This package includes the core files necessary for both the OpenSSH client and server. To make this package useful, you should also install openssh-clients, openssh-server, or both. You can build openssh with some conditional build swithes; (ie. use with rpm --rebuild): --with[out] skey smartcard support (disabled) --with[out] krb5 kerberos support (enabled) --with[out] watchdog watchdog support (disabled) --with[out] x11askpass X11 ask pass support (enabled) --with[out] gnomeaskpass Gnome ask pass support (enabled) --with[out] ldap OpenLDAP support (disabled) --with[out] sftplog sftp logging support (disabled) --with[out] chroot chroot support (disabled)
+
+*PAM=Linux Pluggable Authentication Modules (PAM) provide dynamic authentication support for applications and services in a Linux or GNU/kFreeBSD[1] system
+
+*PANGO=Pango is designed to be modular; the core Pango layout engine can be used
+with different font backends.
+The integration of Pango with Cairo provides a complete solution with high
+quality text handling and graphics rendering.
+
+*polkit =it is an application-level toolkit for defining and handling the policy that allows unprivileged processes to speak to privileged processes: It is a framework for centralizing the decision making process with respect to granting access to privileged operations for unprivileged applications.
+
+*PowerTOP =a program that collects the various pieces of information from a system and presents an overview of how well a laptop is doing in terms of power savings. In addition, PowerTOP will provide an indication of which tunables and software components are the biggest offenders in slurping up battery time. PowerTOP will update it's display frequently so that the impact of any changes can be seen directly.
+
+*procps package =contains a set of system utilities which provide system information. Procps includes ps, free, skill, snice, tload, top, uptime, vmstat, w and watch. * The ps command displays a snapshot of running processes. * The top command provides a repetitive update of the statuses of running processes. * The free command displays the amounts of free and used memory on your system. * The skill command sends a terminate command (or another specified signal) to a specified set of processes. * The snice command is used to change the scheduling priority of specified processes. * The tload command prints a graph of the current system load average to a specified tty. * The uptime command displays the current time, how long the system has been running, how many users are logged on and system load averages for the past one, five and fifteen minutes. * The w command displays a list of the users who are currently logged on and what they're running. * The watch program watches a running program. * The vmstat command displays virtual memory statistics about processes, memory, paging, block I/O, traps and CPU activity.
+
+*PSplash =a userspace graphical boot splash screen for mainly
+embedded Linux devices supporting a 16bpp or 32bpp framebuffer. It has
+few dependencies (just libc), supports basic images and text and handles
+rotation. Its visual look is configurable by commandline arguments and basic
+source changes (mainly defines).
+
+*psmisc =this package contains utilities for managing processes on your
+system: pstree, killall, fuser and pslog.  The pstree command displays
+a tree structure of all of the running processes on your system.  The
+killall command sends a specified signal (SIGTERM if nothing is specified)
+to processes identified by name.  The fuser command identifies the PIDs
+of processes that are using specified files or filesystems. The pslog
+command shows the path of log files owned by a given process.
+
+*pulseaudio=a sound server for Linux and other Unix like operating systems. It is intended to be an improved drop-in replacement for the Enlightened Sound Daemon (ESOUND). 
+
+*Rsync =It uses a quick and reliable algorithm to very quickly bring remote and host files into sync. Rsync is fast because it just sends the differences in the files over the network (instead of sending the complete files). Rsync is often used as a very powerful mirroring process or just as a more capable replacement for the rcp command. A technical report which describes the rsync algorithm is included in this package. Install rsync if you need a powerful mirroring program.
+
+*Rygel =It is an implementation of the UPnP MediaServer V 2.0 specification that is specifically designed for GNOME. It is based on GUPnP and is written (mostly) in Vala language. The project was previously known as gupnp-media-server.
